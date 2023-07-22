@@ -34,7 +34,7 @@ li {
     list-style: none;
 }
 
-a1 {
+a {
     background-color: black;
     color: white;
     padding: 20px;
@@ -43,23 +43,10 @@ a1 {
     border-radius: 20px;
 }
 
-a2 {
+a:hover {
     background-color: white;
     color: black;
-    padding: 20px;
-    text-decoration: none;
-    display: block;
-    border-radius: 20px;
-}
-
-a1:hover {
-    background-color: white;
-    color: black;
-}
-
-a2:hover {
-    background-color: black;
-    color: white;
+    transition: .3s;
 }
 
 footer {

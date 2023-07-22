@@ -9,9 +9,10 @@ body {
 }
 
 img {
-    border-radius: 20px;
+    border-radius: 50%;
     width: 320px;
     height: 320px;
+    border: 5px solid white
 }
 
 h1 {
@@ -39,7 +40,7 @@ a1 {
     padding: 20px;
     text-decoration: none;
     display: block;
-    border-radius: 5px;
+    border-radius: 20px;
 }
 
 a2 {
@@ -48,7 +49,7 @@ a2 {
     padding: 20px;
     text-decoration: none;
     display: block;
-    border-radius: 5px;
+    border-radius: 20px;
 }
 
 a1:hover {
